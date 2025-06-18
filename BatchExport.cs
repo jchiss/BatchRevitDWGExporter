@@ -28,7 +28,7 @@ namespace RevitAutomationCore
             Document doc = uiApp.Application.OpenDocumentFile(centralModelPath, openOptions);
 
             // **Define Local Copy Path**
-            string localDir = @"C:\Temp\RevitLocals\";
+            string localDir = @"C:\Temp\RevitLocals\"; //CHANGE THIS PATH TO WHERE YOU WANT THE REVIT LOCAL COPIES TO BE STORED
             Directory.CreateDirectory(localDir);
             string localCopyPath = Path.Combine(localDir, $"{buildingNumber}_LocalCopy.rvt");
 
