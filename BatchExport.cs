@@ -37,7 +37,7 @@ namespace RevitAutomationCore
 
             // **Trigger DWG Export**
             DWGExporter dwgExporter = new DWGExporter();
-            dwgExporter.ExportDWGs(doc, @"C:\RevitExports", buildingNumber);
+            dwgExporter.ExportDWGs(doc, @"C:\RevitExports", buildingNumber); //CHANGE THIS PATH TO WHERE YOU WANT THE FINAL EXPORTED DWG FOLDER TO LIVE
 
             // **Close the document after processing**
             doc.Close(false);
