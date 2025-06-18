@@ -18,8 +18,8 @@ namespace RevitAutomationCore
             TaskDialog.Show("Debug", "BatchExportCommand started.");
 
 
-            string baseDir = @"L:\ACAD\PPARCENG\";
-            string excelPath = @"C:\Users\jchiss\Documents\TargetBuildings.xlsx";
+            string baseDir = @"L:\ACAD\PPARCENG\";                                         //CHANGE THIS PATH TO MATCH YOUR DIRECTORY STRUCTURE
+            string excelPath = @"C:\Users\jchiss\Documents\TargetBuildings.xlsx";           //CHANGE THIS PATH TO FIND YOUR EXCEL FILE
 
             // Extract building numbers from Excel
             var excelReader = new ExcelReader();
